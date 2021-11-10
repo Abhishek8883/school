@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+#main{
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+
+}
+#first{
+    min-height: 100vh;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    padding: 10px 30px;
+}
+#nleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nleft h1{
+    font-weight: 400;
+}
+#nleft a{
+    text-decoration: none;
+    color: #444;
+    font-size: 25px;
+}
+#logo{
+    height: 10vh;
+    width: 15vw;
+    margin-right: 20px;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#nright a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+}
+#mainImg{
+    margin-top: 15px;
+    height:70vh;
+    width: 100%;
+}
+#mainImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+#heading{
+    text-align: left;
+    width: 60%;
+    height: 30vh;
+    overflow: hidden;
+    
+}
+#heading h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#heading p{
+    color: #444;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 22px;
+}
+#enquiry{
+    width:30%;
+    height: 100%;
+}
+#enquiry h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+#enqBox{
+    padding: 20px 30px;
+    margin-top: 10px;
+    height: 20vh;
+    width: 100%;
+    /* background-color: rgb(41, 78, 110); */
+}
+#second{
+    min-height: 50vh;
+    width: 100%;
+}
+#second h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+#allEvents{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.box{
+    padding: 5px;
+    height: 40vh;
+    width: 18%;
+    background-color: rgb(233, 233, 233);
+    margin: 5px;
+    overflow: hidden;
+}
+.image{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box .boxText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.box h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.box h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.boxDetails p{
+    font-size: 12px;
+    color: #444;
+    height: 5vh;
+    overflow: hidden;
+}
